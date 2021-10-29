@@ -1,0 +1,39 @@
+@import "../../assets/styles/main.css";
+
+.button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button.primary {
+  color: white;
+  background: var(--green) var(--gradient);
+}
+
+.button.secondary {
+  background-color: transparent;
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.button.small {
+  max-width: 120px;
+  font-size: 14px;
+  line-height: 32px;
+  border-radius: 5px;
+}
+
+.button.medium {
+  max-width: 170px;
+  font-size: 16px;
+  line-height: 48px;
+  border-radius: 10px;
+}
+
+.button.large {
+  max-width: 314px;
+  font-size: 20px;
+  line-height: 60px;
+  border-radius: 10px;
+}

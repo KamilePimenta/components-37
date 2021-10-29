@@ -1,0 +1,14 @@
+/* Colors */
+:root {
+  --green: #63D197;
+  --greenLight: #80E790;
+  --warning: #FF9B53;
+  --error: #FF6D6D;
+  --info: #3182FC;
+  --greyDark: #333E3D;
+  --grey: #444E4D;
+  --greyText: #777;
+  --greyLight: #B4B4B4;
+  --greyExtraLight: #F6F6F6;
+  --gradient: linear-gradient(120deg, var(--green) 0%, var(--greenLight) 100%)
+}

@@ -1,0 +1,110 @@
+@import "../../assets/styles/main.css";
+
+label {
+  position: relative;
+  display: block;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  max-width: 314px;
+  margin-bottom: 15px;
+  padding: 12px 20px 0;
+  font-size: 16px;
+  line-height: 46px;
+  border-radius: 10px;
+}
+
+.label {
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 10px);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input.light {
+  background-color: var(--greyExtraLight);
+  color: var(--greyLight);
+  border: 1px solid var(--greyExtraLight);
+}
+
+.input.light + .label {
+  color: var(--greyLight);
+}
+
+.input.dark {
+  background-color: var(--grey);
+  color: var(--greyLight);
+  border: 1px solid var(--grey);
+}
+
+.input.dark + .label {
+  color: var(--greyLight);
+}
+
+.input.filled {
+  background-color: transparent;
+  color: var(--greyText);
+  border-color: var(--greyLight);
+}
+
+.input.filled + .label {
+  top: 10px;
+  font-size: 12px;
+  color: var(--greyText);
+}
+
+.input.error {
+  border-color: var(--error);
+}
+
+.input.error + .label {
+  color: var(--error);
+}
+
+.input.warning {
+  background-color: transparent;
+  color: var(--warning);
+  border-color: var(--warning);
+}
+
+.input.warning + .label {
+  color: var(--warning);
+}
+
+.input:focus {
+  background-color: transparent;
+  color: var(--greyText);
+  border-color: var(--green);
+}
+
+.input:focus + .label {
+  color: var(--greyText);
+}
+
+.message {
+  width: 100%;
+  max-width: 314px;
+  margin-bottom: 15px;
+  padding: 6px 20px;
+  font-size: 12px;
+  color: #fff;
+  min-height: 30px;
+  line-height: 1.4em;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.message.error {
+  background-color: var(--error);
+}
+
+.message.warning {
+  background-color: var(--warning);
+}
+
+.message.success {
+  background-color: var(--green);
+}
